@@ -6,6 +6,8 @@ import Navbar from "../Navbar/Navbar";
 import { teamMembers } from "../../data/teamMembers";
 import "./Home.css";
 
+
+
 export default function Home() {
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
