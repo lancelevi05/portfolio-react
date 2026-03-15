@@ -1,0 +1,111 @@
+/* ===== MAIN LAYOUT ===== */
+.resume-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== SIDEBAR ===== */
+.resume-sidebar {
+  background: #2f3552;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.sidebar-role {
+  color: #cbd5e1;
+  margin-bottom: 25px;
+}
+
+.sidebar-section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.sidebar-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 6px;
+}
+
+/* ===== SKILL BAR ===== */
+.skill-bar {
+  margin-bottom: 12px;
+}
+
+.skill-bar span {
+  font-size: 14px;
+}
+
+.bar {
+  height: 6px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.bar-fill {
+  height: 100%;
+  width: 75%;
+  background: white;
+  border-radius: 10px;
+}
+
+/* ===== RIGHT CONTENT ===== */
+.resume-content {
+  background: #f1f5f9;
+  padding: 40px 50px;
+  color: #1f2937;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.resume-header h1 {
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.resume-header h4 {
+  color: #64748b;
+  font-weight: normal;
+}
+
+/* ===== SECTIONS ===== */
+.resume-section {
+  margin-top: 30px;
+}
+
+.resume-section h2 {
+  background: #e2e8f0;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .resume-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-sidebar {
+    text-align: center;
+  }
+}
